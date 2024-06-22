@@ -1,0 +1,36 @@
+<!--
+    Equipo:
+            Andre Sebastian Vizcarra Salas
+            Azul Paola Rodriguez Ruiz
+            Alexia Paola Anguiano Calderon
+            2AmPr
+            ISSI; Practica 5 
+--><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Contacto</title>
+        <link rel="stylesheet" href="css/contacto.css">
+    </head>
+    <body>
+        <header>
+        <iframe src="vistas\header.html" frameborder="0"></iframe>
+        </header>
+        <div class="centCont">
+            <h2>Formulario de Contacto</h2>
+            <form action="https://formspree.io/f/mleqaqav" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+            </div>
+            <footer>
+            <iframe src="vistas/footer.html" frameborder="0"></iframe>
+        </footer>
+    </body>
+</html>

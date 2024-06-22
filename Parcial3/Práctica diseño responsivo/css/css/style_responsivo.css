@@ -1,0 +1,86 @@
+/*
+            Andre Sebastian Vizcarra Salas
+            2AmPr
+            ISSI; Práctica diseno responsivo
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size:80%;          /*Definimos el tamano del body en porcentaje*/
+    background-color: #f79ebf;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+h1, h2, h3, h4, h5, p {         
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size:0.9em;            
+}
+
+p {
+    font-size:0.9em;        /*Tamano del texto en unidad em, 0.9 em = 14.4px */
+}
+
+h1 {
+    font-size: 2em;         /*Tamano del texto en unidad em,  2em = 32px */
+}
+
+h2 {
+    font-size: 1.4em;       /*Tamano del texto en unidad em, 1.4em = 22.4px */
+}
+
+.vapchiquito {
+    width: 140px;
+}
+
+.separacion {
+    padding: 10px;
+}
+
+/* fin de zona común a todas las resoluciones */
+@media screen and (min-width:800px) {                       /*aplica estilos CSS específicos únicamente cuando el ancho de la pantalla es de al menos 800 píxeles.*/
+    body {
+    font-size:100%;
+    /* ampliamos los textos si mide más de 800px */
+    }
+}
+    /* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {                      /*aplica estilos CSS específicos únicamente cuando el ancho de la pantalla es de al menos 1200 píxeles.*/
+    body {
+    font-size:120%;
+    /* ampliamos más aún los textos si mide más de 1200px */
+    }
+}
+
+img, video, object {        /*Se adapta la imagen dentro del rango minimo y maximo*/
+    max-width:100%; 
+    }
+/* 
+Paleta: 
+#cdb4db
+#ffc8dd
+#ffafcc
+#bde0fe
+#a2d2ff
+*/

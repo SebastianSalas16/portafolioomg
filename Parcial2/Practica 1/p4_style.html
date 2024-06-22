@@ -1,0 +1,140 @@
+<!--
+  Andre Sebastian Vizcarra Salas, 2AMPR
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P4 ISSI</title>
+    <style>
+      h1 {
+          color: aliceblue; 
+          text-align: center;
+      }
+      h2 {
+          color: aliceblue;
+          text-align: center;
+      }
+      body {
+          background-color: black;
+      }
+      table {
+          margin-left: auto;
+          margin-right: auto;
+          color: aliceblue;
+      }
+      img {
+          text-align: left;
+          width: 400px;
+          vertical-align: auto;
+      }
+      div {
+          text-align: center;
+      }                     
+      p {
+          text-align: left;
+          color: aliceblue;
+      }
+      ol{
+        color: aliceblue;
+        flex: 1;
+      }
+      ul{
+        color: aliceblue;
+        flex: 1;            
+      }
+      .lista{             /*Hacer que las 2 listas salgan juntas*/
+        display: flex;
+      }
+      .pie{
+        color: gray;
+      }
+      .info{
+        font: fantasy;
+      }
+  </style>
+</head>
+<body>
+    <h1>Carritos exoticos</h1><br><!--Titulo-->
+    <hr> 
+    <h2>Tabla de marcas y modelos</h2> <!--Subtitulo-->
+    <div>
+        <table border="1">
+            <tr>
+              <th>Honda</th>
+              <th>Nissan</th>
+              <th>Chevrolet</th>
+            </tr>
+            <tr>
+              <td>Civic SI</td>
+              <td>370z</td>
+              <td>Corvette C8</td>
+            </tr>
+            <tr>
+              <td>Honda Civic EK</td>
+              <td>350z</td>
+              <td>Corvette C7</td>
+            </tr>
+            <tr>
+              <td>Honda Civic Type R</td>
+              <td>240sx</td>
+              <td>Camaro SS</td>
+            </tr>
+        </table>
+        <hr> <!-- Honda, tipografia -->
+        <img src="img\si.jpg">
+        <p class="info">
+            El Honda Civic Si es una versión de carro Honda deportivo compacto, con puerta trasera del Civic construido por el fabricante de automóviles japonés Honda. El acabado Si, que significa "Sport Injected", se introdujo para la tercera generación de Honda Civic tanto en Japón como en América del Norte.<br><br>
+        </p>
+        <img src="img\ek.jpg">
+        <p class="info">
+            El civic EK es la Sexta generación (1996-2000) [EK/EJ/EM1/MA/MB/MC] Civic Sexta Generación. La sexta generación fue introducida a finales de 1995. Se vendió en versiones Hatchback, coupe, sedan y station wagon (aerodeck). Como dato curioso El primer Civic en recibir el nombre 'Type R' estaba basado en el Civic de sexta generación (EK).<br><br>
+        </p>
+        <img src="img\typer.jpg">
+        <p class="info">
+            El Civic Type R se ha diseñado para ofrecer una experiencia de conducción emocionante. Sus detalles exclusivos como el emblema Type R, la triple salida de los tubos de escape y una parrilla delantera distintiva lo convierten en un vehículo compacto deportivo único.<br><br>
+        </p>
+        <hr> <!-- Nissan, negritas -->
+        <img src="img\370z.jpg">
+        <p class="info">
+           <b>Un Nissan de la familia Z siempre ha sido sinónimo de coupé deportivo, de manejo ágil y diseño atractivo. El 370Z sigue la formula y evoluciona de la mejor manera posible viniendo de un auto que dejó en alto su nombre, el 350Z. Sin embargo, un auto tan emblemático y de corte deportivo no se puede quedar así.</b>
+        </p>
+        <img src="img\350z.jpg">
+        <p class="info">
+            <b>El Nissan 350Z, un auto deportivo de dos puertas y dos asientos, inició la producción de la quinta generación de los autos Z en 2002, terminando la pausa de 6 años en la producción en USA.</b>
+        </p>
+        <img src="img\240sx.jpg">
+        <p class="info">
+            <b>El Nissan 240SX se introdujo por primera vez en 1989 como un modelo para América del Norte. Este automóvil deportivo se basó en el chasis del Nissan S13 y se produjo en dos estilos de carrocería: hatchback y cupé.</b>
+        </p>
+        <hr> <!-- Chevrolet, cursiva -->
+        <img src="img\c8.jpg">
+        <p class="info">
+            <i>El Corvette C8 acelera de 0 a 100 km/h en menos de 3 segundos con el pack Performance Z51. También mejora la visibilidad del conductor y reduce la altura con respecto al suelo. Permite, asimismo, contar con un maletero de 356 litros, un detalle práctico para un deportivo de estas características.</i>
+        </p>
+        <img src="img\c7.jpg">
+        <p class="info">
+            <i>El Chevrolet Corvette C7 fue presentado en 2013. La versión Stingray posee un motor LT1 V8 atmosférico de 6,2 litros, equipado con inyección directa de combustible y apertura de válvulas variable, que desarrolla 460 hp de potencia y 465 lb•ft de par motor máximo.</i>
+        </p>
+        <img src="img\ss.jpg">
+        <p class="info">
+            <i>El Chevrolet Camaro es un deportivo estadounidense que nació como respuesta al enorme éxito del Ford Mustang. Sin embargo fue tal su popularidad que se convirtió en un automóvil con enormes aptitudes y cuya imagen es reconocida en todo el mundo.</i>
+        </p>
+        <hr>
+    </div>
+  <div class="lista">       
+    <ol>                      <!--Lista de numeros-->
+      <li>Corvette C8</li>
+      <li>350z</li>
+      <li>Civic EK</li>
+    </ol>
+    <ul>                      <!--Lista de vinetas-->
+      <li>$2,500,000(mod 2024)</li>
+      <li>$100,000(mod 2003)</li>
+      <li>$60,000(mod 1998)</li>
+    </ul>
+  </div>
+  <p class="pie">Andre Sebastian Vizcarra Salas, 2AMPR, P4</p>
+</body>
+</html>

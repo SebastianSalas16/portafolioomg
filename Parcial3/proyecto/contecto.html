@@ -1,0 +1,51 @@
+<!--
+    Equipo: Sebastian Vizcarra Salas & Azul Rodriguez Ruiz
+    2AmPr ISSI
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <Title>Contacto</Title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <iframe src="vistas/header.html" frameborder="0"></iframe>
+        <header>
+            <ul class="navbar">
+                <li><a>Temas:<a></li>
+                <li><a href="index.html">Pagina principal</a></li>
+                <li><a href="acerca.html">Acerca de nosotros</a></li>
+                <li><a href="consejos.html">Consejos</a></li>
+                <li><a href="motivos.html">Motivos</a></li>
+            </ul>
+            <div class="main">
+                <a class="active" href="paginas/contecto.html" class="user">Contacto</a>
+    
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+    </header>
+    <div class="contactCent">
+        <form action="https://formspree.io/f/mleqaqav" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>

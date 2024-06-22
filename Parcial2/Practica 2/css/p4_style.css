@@ -1,0 +1,46 @@
+
+h1 {
+    color: aliceblue; 
+    text-align: center;
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+img {
+    text-align: left;
+    width: 400px;
+    vertical-align: auto;
+}
+div {
+    text-align: center;
+}                     
+p {
+    text-align: left;
+    color: aliceblue;
+}
+ol{
+  color: aliceblue;
+  flex: 1;
+}
+ul{
+  color: aliceblue;
+  flex: 1;            
+}
+.lista{             /*Hacer que las 2 listas salgan juntas*/
+  display: flex;
+}
+.pie{
+  color: gray;
+}
+.info{
+  font: fantasy;
+}

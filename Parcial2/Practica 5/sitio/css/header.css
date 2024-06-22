@@ -1,0 +1,61 @@
+/*
+    Equipo:
+            Andre Sebastian Vizcarra Salas
+            Azul Paola Rodriguez Ruiz
+            Alexia Paola Anguiano Calderon
+            2AmPr
+            ISSI; Practica 5 
+*/
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+#article-header {
+    text-align: center;
+}
+
+#titulos-header {
+    font-size: 18px;
+    text-align: center;
+}
+
+#content-header {
+    width: 100%;
+    height: auto;
+    background-color: #ffafcc;
+}
+
+h1 {
+    text-align: center;
+    color: #a2d2ff;
+    font-family: sans-serif;
+}
+
+.hover {
+    color: #bde0fe;
+    padding: 25px;
+}
+
+.hover:hover {
+    color: blue;
+}
+/* 
+Paleta: 
+#cdb4db
+#ffc8dd
+#ffafcc
+#bde0fe
+#a2d2ff
+*/

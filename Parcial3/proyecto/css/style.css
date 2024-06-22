@@ -1,0 +1,260 @@
+/*
+    Equipo: Sebastian Vizcarra Salas & Azul Rodriguez Ruiz
+    2AmPr ISSI
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;  height: -webkit-fill-available; height: fill-available;
+}
+section{
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h2{
+    height: 80vh;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.dos{
+    background-color: #3e3341;
+}
+.tres{
+    background-color: #45354d;
+}
+
+:root{
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #29fdda;
+}
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 3px;
+}
+.logo span{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50 ease;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+.navbar a.active{
+color: var(--main-color);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: all .50s ease;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 7px;
+}
+.main a:hover{
+    color: var(--main-color)
+}
+#menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+
+@media (max-width: 1280px){
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+    .navbar a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+
+
+.home{
+    height: auto;
+    grid-template-columns: 1fr;
+}
+.home-img{
+    text-align: center;
+}
+.home-img img{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+}
+:root{
+    --h1-font: 3.5rem;
+}
+.home-text{
+    text-align: center; padding: 100px;
+}
+.home-text h5{
+    margin-bottom: 15px;
+}
+.home-text h3{
+    font-size: 28px;
+    margin-bottom: 45px;
+}
+
+.gifAz {
+    text-align: center;
+    width: 370px;
+    display: flex;
+    position: absolute;
+}
+
+@media (max-width: 1090px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+}
+.navbar a{
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: var(--text-color);
+    transform: translateY(5px);
+}
+.navbar a.active{
+    color: var(--text-color);
+}
+.navbar.open{
+    right: 2%;
+}
+.home{
+    height: auto;
+}
+.home-img img{
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+.cent {
+    text-align: center;
+}
+
+.tit {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.headCent {
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.headCent i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 3px;
+}
+.headCent span{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.contactCent {
+    text-align: center;
+    margin-top: 20%;
+    width: 100%;
+}
+
+.footcent {
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
