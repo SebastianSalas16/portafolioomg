@@ -1,0 +1,10 @@
+.centratePorfa {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.imgC {
+    width: 100px;
+}

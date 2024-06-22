@@ -1,0 +1,61 @@
+body{
+    background-color: thistle;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: orchid;
+}
+
+.centratePorfa {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.hrHead {
+    color: darkorchid;
+}
+
+.h1Head {
+    text-align: center;
+}
+
+.h2Head {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.h3Menu {
+    text-align: center;
+}
+
+.imgMenu {
+    width: 20em;
+}
+
+.h1Apr {
+    text-align: center;
+    padding-top: 10em;
+}
+
+.h3Apr {
+    text-align: center;
+    color: blue;
+}
+
+.pApr {
+    color: blueviolet;
+}
+
+.tableApr {
+    color: thistle;
+    border: pink;
+}
